@@ -1,5 +1,5 @@
 const jwt = require("jsonwebtoken");
-const User = require("../models/user");
+const User = require("../models/User");
 const isAdmin = (req, res, next) => {
   const token = req.header("Authorization")
     ? req.header("Authorization").split(" ")[1]

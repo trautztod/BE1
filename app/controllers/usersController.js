@@ -6,7 +6,7 @@ const _ = require("lodash");
 const formidable = require("formidable");
 const fs = require("fs");
 
-const User = require("../models/user");
+const User = require("../models/User");
 const Blog = require("../models/Blog");
 const { errorHandler } = require("../../utils/dbErrorHandler");
 const { response } = require("express");
